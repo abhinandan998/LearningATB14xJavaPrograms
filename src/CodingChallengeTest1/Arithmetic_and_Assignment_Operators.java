@@ -11,7 +11,7 @@ public class Arithmetic_and_Assignment_Operators {
 
         // Arithmetic Operators
         int a = 10;
-        int b = 3;
+        int b = 5;
 
         System.out.println("Arithmetic Operators:");
         System.out.println("a + b = " + (a + b)); // Addition
