@@ -3,7 +3,7 @@ package Program_Basic_if_else_Questions_task;
 import java.util.Scanner;
 
 //4) Check if a Character is a Vowel or Consonant.
-public class check_vowel_consonant {
+public class Q4_check_vowel_consonant {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
