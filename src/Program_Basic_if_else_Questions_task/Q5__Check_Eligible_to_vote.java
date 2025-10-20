@@ -4,7 +4,7 @@ package Program_Basic_if_else_Questions_task;
 import java.util.Scanner;
 
 //5) Check if a Person is Eligible to Vote (Age Check).
-public class Q5_Check_Eligible_to_vote {
+public class Q5__Check_Eligible_to_vote {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

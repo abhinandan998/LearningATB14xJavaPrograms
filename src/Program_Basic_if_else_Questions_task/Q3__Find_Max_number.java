@@ -3,7 +3,7 @@ package Program_Basic_if_else_Questions_task;
 import java.util.Scanner;
 
 //3) Find the Maximum of Two Numbers.
-public class Q3_Find_Max_number {
+public class Q3__Find_Max_number {
 
     static void main(String[] args) {
 

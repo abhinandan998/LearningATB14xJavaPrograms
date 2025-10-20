@@ -3,7 +3,7 @@ package Program_Basic_if_else_Questions_task;
 import java.util.Scanner;
 
 //1) Check if a Number is Positive or Negative.
-public class Q1_check_positive_negative {
+public class Q1__check_positive_negative {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
