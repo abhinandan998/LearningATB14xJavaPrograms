@@ -1,0 +1,31 @@
+package Program_Basic_if_else_Questions_task;
+
+import java.util.Scanner;
+
+//6) Find the Largest of Three Numbers.
+public class Q6__Largest_of_3_numbers {
+
+    static void main(String[] args) {
+
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter 1st no: ");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd no: ");
+        int b = sc.nextInt();
+        System.out.println("Enter 3rd no: ");
+        int c = sc.nextInt();
+
+        if(a>b && a>c)
+        {
+            System.out.println(a+ " is greatest");
+        }
+        else if(b>a && b>c)
+        {
+            System.out.println(b + " is greatest");
+        }
+        else
+        {
+            System.out.println(c+ " is greatest");
+        }
+    }
+}
