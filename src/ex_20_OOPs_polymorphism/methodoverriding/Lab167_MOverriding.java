@@ -1,6 +1,6 @@
 package ex_20_OOPs_polymorphism.methodoverriding;
 
-public class Lab_MOverriding {
+public class Lab167_MOverriding {
     static void main(String[] args) {
 
         //RunTime polymorphism

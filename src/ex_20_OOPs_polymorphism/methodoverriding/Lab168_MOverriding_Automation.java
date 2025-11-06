@@ -1,6 +1,6 @@
 package ex_20_OOPs_polymorphism.methodoverriding;
 
-public class Lab_MOverriding_Automation {
+public class Lab168_MOverriding_Automation {
     static void main(String[] args) {
 
         ChromeTC c1 = new ChromeTC();
