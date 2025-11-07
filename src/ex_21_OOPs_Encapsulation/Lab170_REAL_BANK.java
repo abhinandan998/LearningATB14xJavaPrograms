@@ -1,12 +1,18 @@
 package ex_21_OOPs_Encapsulation;
 
-public class Lab_REAL_BANK {
+public class Lab170_REAL_BANK {
     static void main(String[] args) {
 
         ICICIBank abhi = new ICICIBank("Abhi", 10000);
         long bal = abhi.getBal();
         System.out.println(bal);
+        //System.out.println(abhi.bal); //can't be possible
+        System.out.println(bal);
 
+        //Cashier
+        ICICIBank cashier = new ICICIBank("Cash", 100);
+        cashier.setBal(200, true);
+        System.out.println(cashier.getBal());
 
 
     }
@@ -33,7 +39,12 @@ class ICICIBank{
         return bal;
     }
 
-    public void setBal(long bal) {
-        this.bal = bal;
+    public void setBal(long bal, boolean isCashier) {
+        if (isCashier)
+        {
+            this.bal=bal;
+        }else {
+            System.out.println("Not Allowed!");
+        }
     }
 }
