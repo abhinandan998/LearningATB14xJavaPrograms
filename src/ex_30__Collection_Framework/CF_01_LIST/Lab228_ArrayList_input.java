@@ -1,4 +1,4 @@
-package ex_30__Collection_Framework;
+package ex_30__Collection_Framework.CF_01_LIST;
 
 import java.util.*;
 
